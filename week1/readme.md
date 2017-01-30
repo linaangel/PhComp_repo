@@ -12,7 +12,7 @@ Health Watch is a human physiology meter that keeps track of all the body functi
 7. CRP
 8. Blood Count 
 9. Allergy Indicator
-10. Heart beat
+10. Heart beat ♥️
 11. Blood Pressure
 12. Temperature
 
