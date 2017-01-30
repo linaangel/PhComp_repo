@@ -3,4 +3,4 @@
 Here you will find some projects I'll be working on during this semester.
 Also, if you want to see more of my work here is my portfolio: [Lina Angel's Portfolio](http://linaangel.com/index.php/en/)
 
-Enjoy! :simple_smile:
+Enjoy! :+1:
