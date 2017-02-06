@@ -4,6 +4,7 @@
 Here you can see pictures and a video of the Arduino and Breadboard connections to make 3 LEDs blink or stop in different ways!
 This was the code used to independently control each led with different behaviors:
 
+```
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(13, OUTPUT);
@@ -22,8 +23,8 @@ void loop() {
   digitalWrite(11, LOW);    
   delay(500);                 
 }
-
+```
 ![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-1.jpg)
 ![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-2.jpg)
-![LEDs On Video] (https://youtu.be/ppI1XlDYKcY)
-![LEDs On Video] (http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=ppI1XlDYKcY&feature=youtu.be)
+LEDs On Video [Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs.mov)
+LEDs On Video [Click Here] (http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=ppI1XlDYKcY&feature=youtu.be)
