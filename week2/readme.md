@@ -26,5 +26,4 @@ void loop() {
 ```
 ![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-1.jpg)
 ![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-2.jpg)
-LEDs On Video [Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs.mov)
-LEDs On Video [Click Here] (http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=ppI1XlDYKcY&feature=youtu.be)
+LEDs On Video [Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs.mov) or [Here] (http://www.youtube.com/watch?v=ppI1XlDYKcY&feature=youtu.be)
