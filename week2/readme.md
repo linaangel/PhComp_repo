@@ -1,4 +1,4 @@
-#LED On/Off
+#LED On/Off :bulb:
 ##Project: LEDs On!
 
 Here you can see pictures and a video of the Arduino and Breadboard connections to make 3 LEDs blink or stop in different ways!
@@ -26,3 +26,4 @@ void loop() {
 ![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-1.jpg)
 ![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-2.jpg)
 ![LEDs On Video] (https://youtu.be/ppI1XlDYKcY)
+![LEDs On Video] (http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=ppI1XlDYKcY&feature=youtu.be)
