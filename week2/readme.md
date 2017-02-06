@@ -1,8 +1,7 @@
 #LED On/Off
-##LEDS On project!
+##Project: LEDs On!
 
-Here you can see pictures of the Arduino and Breadboard connections and also some videos of the LEDs!
-
+Here you can see pictures and a video of the Arduino and Breadboard connections to make 3 LEDs blink or stop in different ways!
 This was the code used to independently control each led with different behaviors:
 
 void setup() {
@@ -23,3 +22,7 @@ void loop() {
   digitalWrite(11, LOW);    
   delay(500);                 
 }
+
+![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-1.jpg)
+![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-2.jpg)
+![LEDs On Video] (https://youtu.be/ppI1XlDYKcY)
