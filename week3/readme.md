@@ -1,7 +1,8 @@
 #Two LEDs On/Off with Switches :bulb:
 ##ColorPath
 
-Here you can see pictures and videos of the process of making the LEDs turn On/Off with switches. Also, the Arduino and Breadboard connections. ColorPath is a prototype of an application of the two LEDs/Switches in a game!
+Here you can see pictures and videos of the process of making the LEDs turn On/Off with switches. Also, the Arduino and Breadboard connections. ColorPath is a prototype of an application of the two LEDs/Switches in a game:
+Click the red switch to turn left, the green to turn right. The beetle moves straight until it finds arrows for you to decide the path.
 
 This was the code used to independently control each led with different behaviors:
 
@@ -42,4 +43,5 @@ void loop() {
 ![LEDs-Swtich On/Off Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week3/2Led-Switches.jpg)
 ![Prototype 1] (https://github.com/linaangel/PhComp_repo/blob/master/week3/Prototype1.jpg)
 ![Prototype 1] (https://github.com/linaangel/PhComp_repo/blob/master/week3/Prototype2.jpg)
+Switches-LEDs Video [Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week3/2Leds-Switches.MOV)
 Color Path Video [Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week3/colorpath.mov) or [Here] (http://www.youtube.com/watch?v=GkINUBpN9Ww&feature=youtu.be)
