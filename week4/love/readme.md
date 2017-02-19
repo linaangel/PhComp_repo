@@ -54,5 +54,6 @@ void loop() {
 ![Love-O-Meter Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week4/love/love1.jpg)
 ![Love-O-Meter Img 2] (https://github.com/linaangel/PhComp_repo/blob/master/week4/love/love2.png)
 ![Love-O-Meter Img 3] (https://github.com/linaangel/PhComp_repo/blob/master/week4/love/love3.jpg)
-Love-O-Meter Video ![Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week4/love.mp4) or ![Here] (http://www.youtube.com/watch?v=FX7ud8F0Ick&feature=youtu.be)
-![More Images & Videos] (https://github.com/linaangel/PhComp_repo/blob/master/week4/love/more/)
+Love-O-Meter Video [Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week4/love.mp4) or [Here] (http://www.youtube.com/watch?v=FX7ud8F0Ick&feature=youtu.be)
+
+[More Images & Videos] (https://github.com/linaangel/PhComp_repo/blob/master/week4/love/more/)
