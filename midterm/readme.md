@@ -17,24 +17,26 @@ With this challenge to "create" something, I thought it was very useful to have 
 My idea is having a device that activates a sound alarm, turns On different colors LEDs when some of these things happends. For each one of these I think the following sensors can help:
 
 ###Smoke, Gas or Poop :poop:: 
-![Gas emitting Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/gassensor.jpg) 
+![Gas emitting Sensor](https://github.com/linaangel/PhComp_repo/blob/master/midterm/gassensor.jpg) 
 
-[Here is the link] (https://www.sparkfun.com/products/8891)
+[Here is the link](https://www.sparkfun.com/products/8891)
 
-![Methane Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/methanesensor.jpg) 
+![Methane Sensor](https://github.com/linaangel/PhComp_repo/blob/master/midterm/methanesensor.jpg) 
 
-[Here is the link] (https://www.sparkfun.com/products/9404)
+[Here is the link](https://www.sparkfun.com/products/9404)
 
 ##Pee:
-![Humidity Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/humidity.jpg) 
+![Humidity Sensor](https://github.com/linaangel/PhComp_repo/blob/master/midterm/humidity.jpg) 
 
-[Here is the link] (https://www.adafruit.com/products/386)
+[Here is the link](https://www.adafruit.com/products/386)
 
-![phH Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/pHsensor.jpg)
+![phH Sensor](https://github.com/linaangel/PhComp_repo/blob/master/midterm/pHsensor.jpg)
 
-[phH Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/pHsensor.pdf) [Here is the link] (https://www.sparkfun.com/products/10972)
+[phH Sensor pdf](https://github.com/linaangel/PhComp_repo/blob/master/midterm/pHsensor.pdf) 
 
-[Here is a video of a similar project for Pee and Poo] (https://www.youtube.com/watch?v=47YQUk9biTU)
+[Here is the link](https://www.sparkfun.com/products/10972)
+
+[Here is a video of a similar project for Pee and Poo](https://www.youtube.com/watch?v=47YQUk9biTU)
 
 ##IDEA 2: Allergy :warning:
 Again, trying to contribute a little bit and with the experiences I had, I've known so many people suffering from migraines in my live, that I realized after tests and tests that food or environment agents can give you a hard time, and you don't even realize the cause. 
@@ -44,5 +46,10 @@ I went to Five different neurologists until I realized I didn't have to get use 
 The point is, that it will be very useful to create a device that alerts you when there are this allergens where you are, so you can use a mask, or avoid the place!
 
 ###Dust Sensor: 
-![Dust Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/dustsensor.jpg) [Here is the link] (https://www.sparkfun.com/products/9689)
-![Humidity Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/humiditysensor.jpg) [Here is the link] (https://www.adafruit.com/products/386)
+![Dust Sensor](https://github.com/linaangel/PhComp_repo/blob/master/midterm/dustsensor.jpg) 
+
+[Here is the link](https://www.sparkfun.com/products/9689)
+
+![Humidity Sensor](https://github.com/linaangel/PhComp_repo/blob/master/midterm/humiditysensor.jpg) 
+
+[Here is the link](https://www.adafruit.com/products/386)
