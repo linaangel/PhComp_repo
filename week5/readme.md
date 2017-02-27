@@ -58,8 +58,8 @@ prevTiltState = 0;
 ```
 
 ![Six Seconds Digital Hourglass Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week5/six1.jpg)
-![Six Seconds Digital Hourglass Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week5/six2.jpg)
-![Six Seconds Digital Hourglass Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week5/six3.jpg)
-Six Seconds Digital Hourglass Video ![Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week5/six1.MOV) or ![Here] (https://www.youtube.com/watch?v=uGtutbs9LJE&feature=youtu.be)
-Restarting LEDs without sensor - Six Seconds Digital Hourglass Video ![Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week5/six2.MOV) or ![Here] (https://www.youtube.com/watch?v=LZcFEmbMYnE&feature=youtu.be)
+![Six Seconds Digital Hourglass Img 2] (https://github.com/linaangel/PhComp_repo/blob/master/week5/six2.jpg)
+![Six Seconds Digital Hourglass Img 3] (https://github.com/linaangel/PhComp_repo/blob/master/week5/six3.jpg)
+Six Seconds Digital Hourglass Video [Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week5/six1.MOV) or [Here] (https://www.youtube.com/watch?v=uGtutbs9LJE&feature=youtu.be)
+Restarting LEDs without sensor - Six Seconds Digital Hourglass Video [Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week5/six2.MOV) or [Here] (https://www.youtube.com/watch?v=LZcFEmbMYnE&feature=youtu.be)
 ![More] (https://github.com/linaangel/PhComp_repo/blob/master/week5/more/)
