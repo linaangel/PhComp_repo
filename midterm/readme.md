@@ -17,12 +17,21 @@ With this challenge to "create" something, I thought it was very useful to have 
 My idea is having a device that activates a sound alarm, turns On different colors LEDs when some of these things happends. For each one of these I think the following sensors can help:
 
 ###Smoke, Gas or Poop :poop:: 
-![Gas emitting Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/gassensor.jpg) [Here is the link] (https://www.sparkfun.com/products/8891)
-![Methane Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/methanesensor.jpg) [Here is the link] (https://www.sparkfun.com/products/9404)
+![Gas emitting Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/gassensor.jpg) 
+
+[Here is the link] (https://www.sparkfun.com/products/8891)
+
+![Methane Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/methanesensor.jpg) 
+
+[Here is the link] (https://www.sparkfun.com/products/9404)
 
 ##Pee:
-![Humidity Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/humiditysensor.jpg) [Here is the link] (https://www.adafruit.com/products/386)
+![Humidity Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/humidity.jpg) 
+
+[Here is the link] (https://www.adafruit.com/products/386)
+
 ![phH Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/pHsensor.jpg)
+
 [phH Sensor] (https://github.com/linaangel/PhComp_repo/blob/master/midterm/pHsensor.pdf) [Here is the link] (https://www.sparkfun.com/products/10972)
 
 [Here is a video of a similar project for Pee and Poo] (https://www.youtube.com/watch?v=47YQUk9biTU)
