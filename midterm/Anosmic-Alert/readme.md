@@ -14,13 +14,13 @@ As an Anosmic, I thought it was very useful to have an "Anosmic Alert", I know t
 * When your niece is a baby, and you're supposed to babysitt her, and you can't smell the diapers to know if she Pee or Poop:poop:.
 * When the food is rotten 
 
-Anosmic activates a sound alarm, turns On different colors LEDs when some of these things happends. 
+Anosmic Alert activates a sound alarm, turns On different colors LEDs when some of these things happends. 
 
 ## Code Plan
-Green LED = Poo Smell
-Yellow LED = Pee Smell
-Red LED = Smoke Smell
-Blue LED = Gas Smell
+* Green LED = Poo Smell
+* Yellow LED = Pee Smell
+* Red LED = Smoke Smell
+* Blue LED = Gas Smell
 
 ## Components:
 * 3D Printed Nose
