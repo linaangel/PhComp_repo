@@ -148,4 +148,4 @@ if(potBlueRead == 0) {
 
 Anosmic Alert Video [Click Here](https://github.com/linaangel/PhComp_repo/blob/master/midterm/Anosmic-Alert/more/IMG_3292.MOV) or [Here](https://www.youtube.com/watch?v=34q1Hhweqo8&feature=youtu.be)
 
-[More](https://github.com/linaangel/PhComp_repo/blob/master/midterm/more/)
+[More](https://github.com/linaangel/PhComp_repo/tree/master/midterm/Anosmic-Alert/more)
