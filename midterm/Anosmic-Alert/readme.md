@@ -76,7 +76,6 @@ void loop() {
 // Blue smells like Gas
   int potBlueRead = analogRead(A5);
 
-// Green LED ON = smells like Poo
 if(potGreenRead == 0 && potYellowRead == 0 && potRedRead == 0 && potBlueRead == 0) {
     digitalWrite(ledGreen, LOW);
     digitalWrite(ledYellow, LOW);
@@ -84,6 +83,8 @@ if(potGreenRead == 0 && potYellowRead == 0 && potRedRead == 0 && potBlueRead == 
     digitalWrite(ledBlue, LOW);
     noTone(13);
   }
+
+// Green LED ON = smells like Poo
   if(potGreenRead == 1023) {
     digitalWrite(ledGreen, HIGH);
     digitalWrite(ledYellow, LOW);
