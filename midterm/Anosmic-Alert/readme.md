@@ -77,48 +77,6 @@ void loop() {
   int potBlueRead = analogRead(A5);
 
 // Green LED ON = smells like Poo
-if(potGreenRead == 0) {
-    digitalWrite(ledGreen, LOW);
-    digitalWrite(ledYellow, LOW);
-    digitalWrite(ledRed, LOW);
-    digitalWrite(ledBlue, LOW);
-    noTone(13);
-  }
-  if(potGreenRead == 1023) {
-    digitalWrite(ledGreen, HIGH);
-    digitalWrite(ledYellow, LOW);
-    digitalWrite(ledRed, LOW);
-    digitalWrite(ledBlue, LOW);
-// Green smells like Poo
-#define ledGreen 12
-// Yellow smells like Pee
-#define ledYellow 11
-// Red smells like Smoke
-#define ledRed 10
-// Blue smells like Gas
-#define ledBlue 9
-
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  pinMode (ledGreen, OUTPUT);
-  pinMode (ledYellow, OUTPUT);
-  pinMode (ledRed, OUTPUT);
-  pinMode (ledBlue, OUTPUT);
-}
-
-void loop() {
-// put your main code here, to run repeatedly:
-// Green smells like Poo
-  int potGreenRead = analogRead(A0);
-// Yellow smells like Pee
-  int potYellowRead = analogRead(A1);
-// Red smells like Smoke
-  int potRedRead = analogRead(A4);
-// Blue smells like Gas
-  int potBlueRead = analogRead(A5);
-
-// Green LED ON = smells like Poo
 if(potGreenRead == 0 && potYellowRead == 0 && potRedRead == 0 && potBlueRead == 0) {
     digitalWrite(ledGreen, LOW);
     digitalWrite(ledYellow, LOW);
