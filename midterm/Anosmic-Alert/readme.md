@@ -1,5 +1,6 @@
 # Anosmic Alert :nose::warning:
 ![Anosmic Alert](https://github.com/linaangel/PhComp_repo/blob/master/midterm/Anosmic-Alert/anosmicalertFINAL.jpg)
+![Anosmic Alert Arduino](https://github.com/linaangel/PhComp_repo/blob/master/midterm/Anosmic-Alert/arduino_anosmic.jpg)
 
 Using the Arduino UNO kit and some extra components I created an Anosmic Alert :nose::warning:
 
