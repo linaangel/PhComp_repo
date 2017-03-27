@@ -28,7 +28,7 @@ My idea is having a device that activates a sound alarm, turns On different colo
 [Here is the link](https://www.sparkfun.com/products/9404)
 
 ## Pee:
-####Humidity Sensor
+#### Humidity Sensor
 ![Humidity Sensor](https://github.com/linaangel/PhComp_repo/blob/master/midterm/humidity.jpg) 
 
 [Here is the link](https://www.adafruit.com/products/386)
