@@ -1,5 +1,5 @@
 # Anosmic Alert :nose::warning:
-![Anosmic Alert](https://github.com/linaangel/PhComp_repo/blob/master/midterm/Anosmic-Alert/anosmicalert.jpg)
+![Anosmic Alert](https://github.com/linaangel/PhComp_repo/blob/master/midterm/Anosmic-Alert/anosmicalertFINAL.jpg)
 
 Using the Arduino UNO kit and some extra components I created an Anosmic Alert :nose::warning:
 
@@ -14,7 +14,7 @@ As an Anosmic, I thought it was very useful to have an "Anosmic Alert", I know t
 * When your niece is a baby, and you're supposed to babysitt her, and you can't smell the diapers to know if she Pee or Poop:poop:.
 * When the food is rotten 
 
-Anosmic Alert activates a sound alarm, turns On different colors LEDs when some of these things happends. 
+Anosmic Alert activates a sound alarm, turns On different colors LEDs when some of these things are present. 
 
 ## Code Plan
 * Green LED = Poo Smell
@@ -32,14 +32,14 @@ Anosmic Alert activates a sound alarm, turns On different colors LEDs when some 
 ![Dog Nose 3D Printing](https://github.com/linaangel/PhComp_repo/blob/master/midterm/Anosmic-Alert/3dnose.png)
  
 ### Sound Alert: 
-* Piezo beeps if any of the 4 sensors value x > certain value (Presence of the smell - chemical)
+* Piezo beeps if any of the 4 sensors value x >= 614 (Critical Presence of the smell - chemical)
 * Green LED On: Frequency 15000
 * Yellow LED On: Frequency  25000
 * Red LED On: Frequency 45000
-* Blue LED On: Frequency 65535
+* Blue LED On: Frequency 65000
 
 ### Light Alert:
-Light is proportional to the value. Minor presence of chemical, less light. Mayor presence of chemical, more light.
+Light fades according to the presence of the smell, is proportional to the value. Minor presence of chemical, less light. Mayor presence of chemical, more light.
 * Blue LED On: Natural Gas/Methane smell is present. 
 * Red LED On: Smoke/Burning smell is present
 * Yellow LED On: Pee smell is present
@@ -48,16 +48,20 @@ Light is proportional to the value. Minor presence of chemical, less light. Mayo
 ## Arduino Code
 ```
 // Green smells like Poo
-#define ledGreen 12
+#define ledGreen 11
 // Yellow smells like Pee
-#define ledYellow 11
+#define ledYellow 10
 // Red smells like Smoke
-#define ledRed 10
+#define ledRed 9
 // Blue smells like Gas
-#define ledBlue 9
+#define ledBlue 6
+
+int GreenValue = 0;
+int YellowValue = 0;
+int RedValue = 0;
+int BlueValue = 0;
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   pinMode (ledGreen, OUTPUT);
   pinMode (ledYellow, OUTPUT);
@@ -66,58 +70,54 @@ void setup() {
 }
 
 void loop() {
-// put your main code here, to run repeatedly:
 // Green smells like Poo
   int potGreenRead = analogRead(A0);
+  Serial.print("potGreenRead: ");
+  Serial.println(potGreenRead);
 // Yellow smells like Pee
   int potYellowRead = analogRead(A1);
+  Serial.print("potYellowRead: ");
+  Serial.println(potYellowRead);
 // Red smells like Smoke
   int potRedRead = analogRead(A4);
+  Serial.print("potRedRead: ");
+  Serial.println(potRedRead);
 // Blue smells like Gas
   int potBlueRead = analogRead(A5);
+  Serial.print("potBlueRead: ");
+  Serial.println(potBlueRead);
 
-if(potGreenRead == 0 && potYellowRead == 0 && potRedRead == 0 && potBlueRead == 0) {
-    digitalWrite(ledGreen, LOW);
-    digitalWrite(ledYellow, LOW);
-    digitalWrite(ledRed, LOW);
-    digitalWrite(ledBlue, LOW);
+// Tone
+ if(potGreenRead >= 614) {
+   tone(13,15000);
+  }
+if(potYellowRead >= 614) {
+   tone(13,25000);
+  }
+if(potRedRead >= 614) {
+   tone(13,35000);
+  }
+if(potBlueRead >= 614) {
+   tone(13,65000);
+  }
+if(potGreenRead < 614 && potYellowRead < 614 && potRedRead < 614 && potBlueRead < 614) {
     noTone(13);
   }
 
+// LEDs
+GreenValue = potGreenRead/4;
+YellowValue = potYellowRead/4;
+RedValue = potRedRead/4;
+BlueValue = potBlueRead/4;
+ 
 // Green LED ON = smells like Poo
-  if(potGreenRead == 1023) {
-    digitalWrite(ledGreen, HIGH);
-    digitalWrite(ledYellow, LOW);
-    digitalWrite(ledRed, LOW);
-    digitalWrite(ledBlue, LOW);
-    tone(13,15000);
-  }
-
+  analogWrite(ledGreen, GreenValue);
 // Yellow LED ON = smells like Pee
-  if(potYellowRead == 1023) {
-    digitalWrite(ledGreen, LOW);
-    digitalWrite(ledYellow, HIGH);
-    digitalWrite(ledRed, LOW);
-    digitalWrite(ledBlue, LOW);
-    tone(13,25000);
-  }
-
+  analogWrite(ledYellow, YellowValue);
 // Red LED ON = smells like Smoke
-  if(potRedRead == 1023) {
-    digitalWrite(ledGreen, LOW);
-    digitalWrite(ledYellow, LOW);
-    digitalWrite(ledRed, HIGH);
-    digitalWrite(ledBlue, LOW);
-    tone(13,35000);
-  }
+  analogWrite(ledRed, RedValue);
 // Blue LED ON = smells like Gas
-  if(potBlueRead == 1023) {
-    digitalWrite(ledGreen, LOW);
-    digitalWrite(ledYellow, LOW);
-    digitalWrite(ledRed, LOW);
-    digitalWrite(ledBlue, HIGH);
-    tone(13,65000);
-  }
+  analogWrite(ledBlue, BlueValue);
 }
 ```
 
