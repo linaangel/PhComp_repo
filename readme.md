@@ -11,6 +11,6 @@ Enjoy! :+1:
 * [Week 4a: Love-O-Meter](https://github.com/linaangel/PhComp_repo/tree/master/week4/love)
 * [Week 4b: Color Mixing Lamp](https://github.com/linaangel/PhComp_repo/tree/master/week4/lamp)
 * [Week 5: Six Seconds Digital Hourglass](https://github.com/linaangel/PhComp_repo/tree/master/week5)
-* [Midterm Ideas](Chemical Sensors Options)] (https://github.com/linaangel/PhComp_repo/tree/master/midterm)
+* [Midterm Ideas (Chemical Sensors Options)](https://github.com/linaangel/PhComp_repo/tree/master/midterm)
 * [Midterm Anosmic Alert](https://github.com/linaangel/PhComp_repo/tree/master/midterm/Anosmic-Alert)
 * [Week 11: Serial Port](https://github.com/linaangel/PhComp_repo/tree/master/week11)
