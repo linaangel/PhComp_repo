@@ -13,3 +13,4 @@ Enjoy! :+1:
 * [Week 5: Six Seconds Digital Hourglass] (https://github.com/linaangel/PhComp_repo/tree/master/week5)
 * [Midterm Ideas (Chemical Sensors Options)] (https://github.com/linaangel/PhComp_repo/tree/master/midterm)
 * [Midterm Anosmic Alert] (https://github.com/linaangel/PhComp_repo/tree/master/midterm/Anosmic-Alert)
+* [Week 11: Serial Port] (https://github.com/linaangel/PhComp_repo/tree/master/week11)
