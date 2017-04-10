@@ -169,6 +169,6 @@ function mouseReleased() {
 }
 ```
 
-! [Serial Port Inline] (https://github.com/linaangel/PhComp_repo/blob/master/week11/serialport.png)
-! [Serial Control] (https://github.com/linaangel/PhComp_repo/blob/master/week11/p5serialcontrol.png)
-! [Serial Port Video] (https://github.com/linaangel/PhComp_repo/blob/master/week11/serial-LEDs.MOV)
+![Serial Port Inline](https://github.com/linaangel/PhComp_repo/blob/master/week11/serialport.png)
+![Serial Control](https://github.com/linaangel/PhComp_repo/blob/master/week11/p5serialcontrol.png)
+![Serial Port Video](https://github.com/linaangel/PhComp_repo/blob/master/week11/serial-LEDs.MOV)
