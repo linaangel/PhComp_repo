@@ -32,7 +32,7 @@ Anosmic Alert is a device that activates a sound alarm, turns On different color
 * Switches
 * Resistors
 
-### Arduino Nano
+#### Arduino Nano
 ![Arduino Nano](https://github.com/linaangel/PhComp_repo/blob/master/AnosmicAlert/nano.jpg) 
 [Here is the link](https://www.amazon.com/gp/product/B00Q9YBO88/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1)
 
@@ -78,12 +78,19 @@ Light fades according to the presence of the smell, is proportional to the value
 ### Switches
 Turn off a sound when you’re controlling it
 
-#### References
+## References
 [Arduino MQ Gas Sensors](http://playground.arduino.cc/Main/MQGasSensors)
+
 [Electronic Nose](https://en.wikipedia.org/wiki/Electronic_nose)
+
 [Arduino Project - Electronic Nose](http://www.maskau.dk/projects/electronic-nose)
+
 [Smell Disorder](https://www.nidcd.nih.gov/health/smell-disorders)
+
 [Smoke Detection](http://www.explainthatstuff.com/smokedetector.html)
+
 [Gas Sensors](http://playground.arduino.cc/Main/MQGasSensors)
+
 [Arduino Step By Step](https://create.arduino.cc/projecthub/Aritro/smoke-detection-using-mq-2-gas-sensor-79c54a)
+
 [More](https://github.com/linaangel/PhComp_repo/tree/master/AnosmicAlert/References)
