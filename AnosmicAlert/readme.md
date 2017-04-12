@@ -47,7 +47,7 @@ Anosmic Alert is a device that activates a sound alarm, turns On different color
 
 ### Something is Burning
 #### Smoke Sensor 
-![Smoke Sensor](https://github.com/linaangel/PhComp_repo/blob/master/AnosmicAlert/smoke) 
+![Smoke Sensor](https://github.com/linaangel/PhComp_repo/blob/master/AnosmicAlert/smoke.jpg) 
 [Here is the link](https://www.amazon.com/gp/product/B01F2X3VY6/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1)
 
 ### Pee
