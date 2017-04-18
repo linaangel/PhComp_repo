@@ -66,8 +66,8 @@ void loop() {
 ![Color Mixing Lamp Img 2](https://github.com/linaangel/PhComp_repo/blob/master/week4/lamp/lamp2.jpg)
 ![Color Mixing Lamp Img 3](https://github.com/linaangel/PhComp_repo/blob/master/week4/lamp/lamp3.jpg)
 
-Color Mixing Lamp Video ![Click Here](https://github.com/linaangel/PhComp_repo/blob/master/week4/lamp.MOV) or ![Here](https://www.youtube.com/watch?v=c7ZkSevBIa8&feature=youtu.be)
-![More](https://github.com/linaangel/PhComp_repo/blob/master/week4/lamp/more/)
+Color Mixing Lamp Video [Click Here](https://github.com/linaangel/PhComp_repo/blob/master/week4/lamp.MOV) or [Here](https://www.youtube.com/watch?v=c7ZkSevBIa8&feature=youtu.be)
+[More](https://github.com/linaangel/PhComp_repo/blob/master/week4/lamp/more/)
 Color Mixing Lamp Video [Click Here](https://github.com/linaangel/PhComp_repo/blob/master/week4/lamp/lamp.MOV) or [Here](https://www.youtube.com/watch?v=c7ZkSevBIa8)
 
 [More](https://github.com/linaangel/PhComp_repo/tree/master/week4/lamp/more)
