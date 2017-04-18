@@ -21,7 +21,7 @@ Anosmic Alert is a device that activates a sound alarm, turns On different color
 * Blue LED = Natural Gas
 
 ## Components
-* Arduino Nano
+* Arduino UNO and Nano
 * MQ4 Methane Sensor
 * MQ2 Smoke Sensor
 * Gas Breakout
@@ -29,8 +29,10 @@ Anosmic Alert is a device that activates a sound alarm, turns On different color
 * Jumper Wires 
 * 4 LEDs: 1 Red, 1 Blue, 1 Green and 1 Yellow
 * 1 Piezo buzzer
+* 1 Potentiometer
+* 1 Liquid Cristal Display
 * Switches
-* Resistors
+* Resistors 220Ω and 10kΩ
 
 #### Arduino Nano
 ![Arduino Nano](https://github.com/linaangel/PhComp_repo/blob/master/AnosmicAlert/nano.jpg) 
@@ -63,20 +65,147 @@ Anosmic Alert is a device that activates a sound alarm, turns On different color
 ### Sound Alert: 
 * Piezo beeps if any sensors detects pee, poo, smoke or methane in the air.
 (Critical Presence of the smell - chemical)
-* Green LED On: Frequency 15000
-* Yellow LED On: Frequency  25000
-* Red LED On: Frequency 45000
-* Blue LED On: Frequency 65000
+* Green LED On: Threshold 50
+* Yellow LED On: Threshold 5
+* Red LED On: Threshold 200
+* Blue LED On: Threshold 100
 
 ### Light Alert:
-Light fades according to the presence of the smell, is proportional to the value. Minor presence of chemical, less light. Mayor presence of chemical, more light.
-* Blue LED On: Natural Gas/Methane smell is present. 
+Light tunrs ON/OFF if the smell is present.
+* Blue LED On: Natural Gas/Methane smell is present
 * Red LED On: Smoke/Burning smell is present
 * Yellow LED On: Pee smell is present
 * Green LED On:  Poo smell is present
 
+### Visual Alert:
+Liquid Cristal Display with messages:
+"Smells like: ....."
+* Gas: Methane is present
+* Smoke: Something is burning
+* Pee: Humidity sensor detects something liquid
+* Poo: Methane is present
+
+
 ### Switches
 Turn off a sound when you’re controlling it
+
+## Code
+```
+// include LCD library code:
+#include <LiquidCrystal.h>
+
+// Turn off LED/Piezo Alert
+#define switch0 1
+
+int buzzer = 13;
+
+// Blue smells like Gas
+#define ledBlue 6
+// Red smells like Smoke
+#define ledRed 7
+// Yellow smells like Pee
+#define ledYellow 8
+// Green smells like Poo
+#define ledGreen 9
+
+// set up Smoke Sensor
+int sensorPin = A5;
+// set up Pee Sensor
+int sensorPeePin = A0;
+
+// LCD initialize numbers of the interface pins
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+// a variable to choose which alert from the Anosmic Alert
+int sensorThres = 200;
+int sensorPeeThres = 5;
+
+void setup() {
+// set up serial port
+Serial.begin(9600);
+
+// Buzzer
+  pinMode (buzzer, OUTPUT);
+
+// Switch
+  pinMode (switch0, INPUT);
+
+// LEDs Mode
+  pinMode (ledGreen, OUTPUT);
+  pinMode (ledYellow, OUTPUT);
+  pinMode (ledRed, OUTPUT);
+  pinMode (ledBlue, OUTPUT);
+  
+// set up the sensor Smoke pin as an input
+  pinMode(sensorPin, INPUT);
+// set up the sensor Pee pin as an input
+  pinMode(sensorPeePin, INPUT);
+
+// set up the number of columns and rows on the LCD
+  lcd.begin(16, 2);
+  lcd.setCursor(0, 0);
+  lcd.print("Smells like:");
+}
+
+void loop() {
+// Yellow Pee
+  int sensorPeePinValue = analogRead(sensorPeePin);
+  Serial.print("sensorPeePin Read: ");
+  Serial.println(sensorPeePinValue);
+// Red Smoke
+  int sensorPinValue = analogRead(sensorPin);
+  Serial.print("sensorPin Read: ");
+  Serial.println(sensorPinValue);
+ 
+// LEDs & Alert
+if(sensorPinValue < sensorThres || sensorPeePinValue < sensorPeeThres) {
+    lcd.setCursor(0, 1);
+    lcd.print(".....");
+    digitalWrite(ledGreen, LOW);
+    digitalWrite(ledYellow, LOW);
+    digitalWrite(ledRed, LOW);
+    digitalWrite(ledBlue, LOW);
+    noTone(buzzer);
+  }
+
+//Red LED ON = Something is burning
+  if(sensorPinValue > sensorThres) {
+    lcd.setCursor(0, 1);
+    lcd.print("Smoke");
+    digitalWrite(ledGreen, LOW);
+    digitalWrite(ledYellow, LOW);
+    digitalWrite(ledRed, HIGH);
+    digitalWrite(ledBlue, LOW);
+    tone(buzzer, 65000);
+  }
+// Yellow LED ON = smells like Pee
+  if(sensorPeePinValue > sensorPeeThres) {
+    lcd.setCursor(0, 1);
+    lcd.print("Pee");
+    digitalWrite(ledGreen, LOW);
+    digitalWrite(ledYellow, HIGH);
+    digitalWrite(ledRed, LOW);
+    digitalWrite(ledBlue, LOW);
+    tone(buzzer, 65000);
+  }
+
+// read the state of the switch:
+    int switchState = digitalRead(switch0);
+  
+// Turn Off Alert Switch
+// check if the pushbutton is pressed.
+// if it is, the buttonState is HIGH:
+if (switchState == HIGH) {  
+    lcd.setCursor(0, 1);
+    lcd.print(".....");
+    noTone(buzzer);
+    digitalWrite (ledGreen, LOW);
+    digitalWrite (ledRed, LOW);
+    digitalWrite (ledBlue, LOW);
+    digitalWrite (ledYellow, LOW);
+  }
+}
+```
 
 ## References
 [Arduino MQ Gas Sensors](http://playground.arduino.cc/Main/MQGasSensors)
