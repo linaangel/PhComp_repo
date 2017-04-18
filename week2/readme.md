@@ -1,8 +1,8 @@
-#LED On/Off :bulb:
-##Project: LEDs On!
+# LED On/Off :bulb:
+## Project: LEDs On!
 
 Here you can see pictures and a video of the Arduino and Breadboard connections to make 3 LEDs blink or stop in different ways!
-LEDs On Video: [Click Here to watch it] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs.mov) or [Here] (http://www.youtube.com/watch?v=ppI1XlDYKcY&feature=youtu.be)
+LEDs On Video: [Click Here to watch it](https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs.mov) or [Here](http://www.youtube.com/watch?v=ppI1XlDYKcY&feature=youtu.be)
 
 Code used to independently control each led with different behaviors:
 
@@ -26,6 +26,6 @@ void loop() {
   delay(500);                 
 }
 ```
-![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-1.jpg)
-![LEDs On Img 1] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-2.jpg)
-LEDs On Video [Click Here] (https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs.mov) or [Here] (http://www.youtube.com/watch?v=ppI1XlDYKcY&feature=youtu.be)
+![LEDs On Img 1](https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-1.jpg)
+![LEDs On Img 1](https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs-2.jpg)
+LEDs On Video [Click Here](https://github.com/linaangel/PhComp_repo/blob/master/week2/LEDs.mov) or [Here] (http://www.youtube.com/watch?v=ppI1XlDYKcY&feature=youtu.be)
