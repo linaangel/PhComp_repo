@@ -118,7 +118,7 @@ int sensorPeePin = A0;
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 // a variable to choose which alert from the Anosmic Alert
-int sensorThres = 200;
+int sensorThres = 300;
 int sensorPeeThres = 5;
 
 void setup() {
