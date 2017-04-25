@@ -68,7 +68,7 @@ Anosmic Alert is a device that activates a sound alarm, turns On different color
 (Critical Presence of the smell - chemical)
 * Green LED On: Threshold 50
 * Yellow LED On: Threshold 5
-* Red LED On: Threshold 200
+* Red LED On: Threshold 300
 * Blue LED On: Threshold 100
 
 ### Light Alert:
