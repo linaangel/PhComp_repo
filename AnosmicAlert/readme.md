@@ -2,6 +2,7 @@
 ![Anosmic Alert](https://github.com/linaangel/PhComp_repo/blob/master/AnosmicAlert/anosmicalert.jpg)
 ![Anosmic Alert](https://github.com/linaangel/PhComp_repo/blob/master/AnosmicAlert/components.png)
 [Watch the Video](https://youtu.be/47clf0O71S8)
+
 [More Videos of the process](https://www.youtube.com/playlist?list=PLgJFES56l4U2Ey4vrSF77-NlKw0PBJkjE)
 
 As you already know, there are blind people, depth people, but there's also Anosmic people, like me! This means I can't smell at all... Yes, anything! It's good when you never had that sense, as David Eaglemen says in his TED talk is all about your "umwelt" ([Here is the TEDTalk](https://www.ted.com/talks/david_eagleman_can_we_create_new_senses_for_humans) in case you want to understand what I'm talking about!)
